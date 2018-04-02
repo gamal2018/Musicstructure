@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/main_activity_linear"
+    tools:context="com.example.android.musicstructure.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/pop"
+        style="@style/song_type_image"
+        android:src="@drawable/pop" />
+
+    <ImageView
+        android:id="@+id/jazz"
+        style="@style/song_type_image"
+        android:src="@drawable/jazz" />
+
+    <ImageView
+        android:id="@+id/rap"
+        style="@style/song_type_image"
+        android:src="@drawable/rap" />
+
+    <ImageView
+        android:id="@+id/rock"
+        style="@style/song_type_image"
+        android:src="@drawable/rock" />
+
+</LinearLayout>

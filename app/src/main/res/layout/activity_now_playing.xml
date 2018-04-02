@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Now_playing_scrollView"
+    tools:context="com.example.android.musicstructure.NowPlaying">
+
+    <LinearLayout style="@style/Now_playing_home_linear">
+
+        <ImageView
+            android:id="@+id/home"
+            style="@style/homeImg"
+            android:src="@drawable/home" />
+
+        <ImageView
+            style="@style/Now_playing_image"
+            android:src="@drawable/now" />
+
+        <TextView
+            android:id="@+id/songName"
+            style="@style/Now_playing_songName" />
+
+        <TextView
+            android:id="@+id/ArtistName"
+            style="@style/Now_playing_artistName" />
+
+        <SeekBar style="@style/Now_playing_seek" />
+
+        <RelativeLayout style="@style/Now_playing_relative">
+
+            <LinearLayout style="@style/Now_playing_horizontal_linear">
+
+                <ImageView
+                    style="@style/Now_playing_song_bar"
+                    android:src="@drawable/prev" />
+
+                <ImageView
+                    style="@style/Now_playing_song_bar"
+                    android:src="@drawable/stop" />
+
+                <ImageView
+                    style="@style/Now_playing_song_bar"
+                    android:src="@drawable/playsong" />
+
+                <ImageView
+                    style="@style/Now_playing_song_bar"
+                    android:src="@drawable/pause" />
+
+                <ImageView
+                    style="@style/Now_playing_song_bar"
+                    android:src="@drawable/next" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
